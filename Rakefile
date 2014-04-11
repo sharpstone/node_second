@@ -1,3 +1,3 @@
 task "assets:precompile" do
-  puts "success!"
+  puts "Node Version in Ruby buildpack is: #{`node -v`}"
 end
